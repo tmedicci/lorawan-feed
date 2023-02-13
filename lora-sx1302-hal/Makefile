@@ -24,9 +24,9 @@ PKG_LICENSE_FILES:=LICENSE
 include $(INCLUDE_DIR)/package.mk
 
 define Package/sx1302_hal_wrt
-  SECTION:=libs
-  CATEGORY:=Libraries
-  SUBMENU:=IoT
+  SECTION:=net
+  CATEGORY:=Network
+  SUBMENU:=LoRaWAN
   TITLE:=SX1302/SX1303 HAL
   DEPENDS:=+kmod-spi-dev
 endef
